@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav-menu">
+        <img src="/img2/unnamed.webp" alt="">
+        <div class="menu">
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>ROOM</li>
+            <li>SERVICES</li>
+            <li>CONTACT</li>
+        </div>
+    </nav>
+    <div class="head-picture">
+        <div>
+            <img src="img2/Qbzi8vBfhu50Ls7RcPq4ItBggYx2QF82NyEaK2zBZjfip72Lnd_HSyYEKxX_kQLvrcja5sDA3QOkeBQN1zAni0pTSzAbz2aO0g=w1920.jpg" alt="">
+            <div class="over-flow">
+            </div>
+        </div>
+        <div class="title">
+            <p>WELCOME TO</p>
+            <P>Luxury Resort Spa & Hotel</P>
+            <div class="button">EXPLORE MORE</div>
+        </div>
+        
+    </div>
+    <div class="paragrap">
+        <div class="paragrap-1">
+            <p>WELCOME TO</p>
+            <div class="line">
+            </div>
+        </div>
+        <div class="paragrap-1">
+            <h3>Luxury Resort Spa & Hotel</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br>
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<br><br>
+                
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+        <div class="paragrap-1 list-img"  >
+            <img src="img2/unnamed (1).webp" alt="">
+            <img src="img2/unnamed (2).webp" alt="">
+            <img src="img2/unnamed (3).webp" alt="">
+            <img src="img2/unnamed (4).webp" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<STyle>
+    .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 255);
+    }
+    .menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    }
+    .head-picture img {
+    width: 100%;
+    height: 600px;
+    }
+    .head-picture {
+     position: relative;
+    }
+    .title {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    }
+    .over-flow {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background: #80808059;
+    top: 0;
+    }
+    .button {
+    font-size: 15px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: auto;
+    border: 1px solid;
+    
+    }
+    .button:hover {
+    color: rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 1);
+    }
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: #333;
+    }
+    .paragrap-1 {
+        width: calc(100% / 3 - 30px);
+    }
+    .paragrap {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+    }
+    .list-img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .list-img img {
+        width: calc(100% / 2 - 10px);
+    }
+</STyle>
